@@ -15,7 +15,8 @@ cd ~/Documents/Git_Repository
 # Make this directory to your Git Repository
 git init
 
-# Adding some files in your Git Repository can be done like this
+# Adding some files in your Git Repository can be done like this:
+cal > file1.txt
 cp -r file1.txt  to_Git_Repository #(optional)
 git add file1.txt
 
