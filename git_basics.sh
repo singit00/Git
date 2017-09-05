@@ -16,6 +16,11 @@ cd ~/Documents/Git_Repository
 git init
 
 # Adding some files in your Git Repository can be done like this
-cp -r file1.txt  to_Git_Repository
+cp -r file1.txt  to_Git_Repository #(optional)
 git add file1.txt
 
+# every commit need a commit message
+git commit -m "added my github name"
+
+# push your changes to GitHub
+git push
