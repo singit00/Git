@@ -11,9 +11,16 @@ git config --global user.email "your_email"
 # Create Git directory and change into it
 sudo mkdir -p ~/Documents/Git_Repository
 cd ~/Documents/Git_Repository
+git clone https://github.com/singit00/Matlab.git
 
-# Make this directory to your Git Repository
+
+# Make this directory to your Git Repository (Existing folder)
+cd existing folder
 git init
+git remote add origing https://github.com/singit00/Matlab.git
+git add .
+git commit
+git push -u origin master
 
 # Adding some files in your Git Repository can be done like this:
 cal > file1.txt
